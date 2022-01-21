@@ -18,16 +18,7 @@ export default function App() {
     <Provider store={store}>
       <Router>
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/randomMessage">Random Message</Link>
-              </li>
-            </ul>
-          </nav>
+          <App />
 
           <Routes>
             <Route path="/" element={<Home />} />
